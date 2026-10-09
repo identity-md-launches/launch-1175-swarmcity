@@ -10,8 +10,8 @@ Five drafts were drawn in five generation calls, one for each required style.
 All five are delivered; no rejected drafts or additional regeneration attempts
 exist. The generated originals were 1254x1254 RGB images. They were resized with
 Lanczos sampling to the required 1024x1024 PNGs; no logo shapes, letters, paint,
-backgrounds or visual effects were drawn or edited in code. `artifacts/logo.png`
-is a byte-identical copy of `logos/logo-2.png`.
+backgrounds or visual effects were drawn or edited in code. `logos/logo-2.png`
+is the recommended primary mark.
 
 The five 64-pixel images and their 32-pixel circular crops were visually
 inspected against white and near-black surfaces. Every output has its own
