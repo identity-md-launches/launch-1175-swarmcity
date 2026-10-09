@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "SCToken",
+    "name": "SwarmCity",
+    "symbol": "SC",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "125270724187523965593206900"
+  },
+  "economics": {
+    "poolBps": 9000,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0x000000000000000000000000000000000000dead"
+  },
+  "notes": "The constructor mints the entire fixed 1e27-unit supply to the deployer. The launch factory handles the 10% swarm allocation, 90% pool seed and any remainder. Transfers from the Ethereum Uniswap v4 PoolManager pay a fixed 2% tax, rounded down to minor units, to 0xD30eA9E0FA0C671BB4dC6C6e83863396B1822951; all transfers to the manager and ordinary wallet transfers are untaxed. No owner, admin, minting, burning or upgrade functions exist. The supplied initialPrice is provenance only; the factory derives the opening price from the economics and deployed currency order."
+}
